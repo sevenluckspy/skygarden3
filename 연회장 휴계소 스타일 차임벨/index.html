@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>스카이가든</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let userRole = prompt('당신의 역할을 입력하세요 :').toLowerCase();
+            if (userRole === 'admin') {
+                window.location.href = 'input.html';
+            } else {
+                window.location.href = 'output.html';
+            }
+        });
+    </script>
+</head>
+<body>
+    <p>잠시만 기다려 주세요...</p>
+</body>
+</html>
